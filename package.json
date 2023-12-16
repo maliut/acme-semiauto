@@ -1,0 +1,17 @@
+{
+  "name": "acme-semiauto",
+  "version": "1.0.0",
+  "scripts": {
+    "createAccount": "node scripts/createAccount.js",
+    "cert:example": "node scripts/createCert.js example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@alicloud/cas20200407": "1.0.9",
+    "@alicloud/openapi-client": "^0.4.7",
+    "@alicloud/tea-util": "^1.4.7",
+    "acme-client": "^5.0.0",
+    "ali-oss": "^6.18.1",
+    "dotenv": "^16.3.1"
+  }
+}
