@@ -8,6 +8,10 @@ const dotenv = require('dotenv')
 dotenv.config({ path: path.resolve(__dirname, `../.env.${envName}`) })
 
 const acme = require('acme-client')
+acme.setLogger((message) => {
+  console.log(message);
+})
+
 const client = new acme.Client({
   directoryUrl: acme.directory.letsencrypt.production,
   accountKey: process.env.ACMEAccountKey,

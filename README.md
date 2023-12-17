@@ -42,3 +42,6 @@ It will create cert and upload to ali cert service, you should bind it to your o
 ## Delete expired certs
 
 TBD
+
+## Trouble shooting
+lets encrypt api may be affected by GFW
