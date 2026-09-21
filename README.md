@@ -1,3 +1,5 @@
+Archived: 已实现全自动证书管理，见 [aliyun-toolkit](https://github.com/maliut/aliyun-toolkit)。本仓库归档。
+
 # 半自动证书管理
 
 由于 aliyun oss 上托管的网站难以做到全自动的证书续期，只能尽量简化续期的步骤。
